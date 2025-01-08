@@ -26,7 +26,7 @@ jobs:
         # to supply options, put them in 'env', like:
         env:
           CIBW_PLATFORM: windows
-          CIBW_BUILD: cp38-win32,cp38-win_amd64
+          CIBW_BUILD: cp38-win*
 
       - uses: actions/upload-artifact@v4
         with:
